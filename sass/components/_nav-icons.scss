@@ -1,0 +1,17 @@
+.auth-email, .auth-tel{
+    display: flex; 
+    align-items: center;}
+
+.auth-tel:hover .icon-phone {fill:var(--button-text-colour);}
+.auth-email:hover .icon-email {fill:var(--button-text-colour);}
+
+.icon-email, .icon-phone{
+    margin-right: 10px;
+     fill:var(--article-text-colour);
+     transition-property: all; 
+     transition-duration: 250ms;
+     transition-timing-function: 
+     cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li-phone:hover{fill:var(--button-text-colour);}

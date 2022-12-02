@@ -1,0 +1,39 @@
+.web-foot{background-color: var(--secondary-background-colour); padding-top: 60px; padding-bottom: 60px;}
+
+
+
+.foot-link{color: var(--second-text-colour);}
+.foot-adress{color: var(--second-text-colour);}
+.foot-email, .foot-phone{color: var(--color-rgba);}
+.foot-list a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+    text-decoration: none; 
+
+    }
+.foot-list{
+    display: inline-block; 
+    margin: 0; 
+    padding: 0;
+    padding-left: 0;}  
+
+
+.li-foot-adress, .li-foot-email{margin-bottom: 9px;}
+
+
+
+.foot-social-links{
+    margin-left: 72px; 
+    padding-top: 12px;  }
+
+.foot-title{color: var(--second-text-colour); 
+     margin: 0; 
+     margin-bottom: 20px; 
+     font-size: 14px;
+     line-height: 1.14}
+
+
+
+   
