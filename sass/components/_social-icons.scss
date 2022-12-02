@@ -1,17 +1,22 @@
-.social-icons{display: flex; justify-content: center;} 
+.social-icons{
+    display: flex;
+     justify-content: center;} 
        
-    .social-item{ margin-right: 10px; margin-top: 16px; }
-    .social-link{fill: var(--clients-border-colour);
+    .social-item{ 
+        margin-right: 10px; 
+        margin-top: 16px; }
+    .social-link{
+        fill: var(--clients-border-colour);
          width: 44px; 
          height: 44px; 
          border-radius: 50%;
-          display: flex;
-           align-items: center;
-            justify-content: center;
-            transition-property: all; 
-            transition-duration: 250ms;
-            transition-timing-function: 
-            cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-property: all; 
+        transition-duration: 250ms;
+         transition-timing-function: 
+        cubic-bezier(0.4, 0, 0.2, 1);
         }
 
 
