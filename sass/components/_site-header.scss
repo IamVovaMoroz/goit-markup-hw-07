@@ -42,6 +42,7 @@
 
 
 
+
 .navigat .header-studio__link:hover, .navigat .header-studio__link:focus {color: var(--button-text-colour);}
 
 .navigat .header-studio__link.current{color: var(--button-text-colour);}
@@ -60,7 +61,7 @@
     cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .header__item{margin-right: 50px;}
+    .auth__item, .header__item{margin-right: 50px;}
 
     .header-studio__link, .header-portfolio__link{
         position: relative; 
