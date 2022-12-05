@@ -1,4 +1,4 @@
-.logo-main{ 
+.navigat__link{ 
     font-family: Raleway;  
     font-weight: 700;
     font-size: 26px;
@@ -6,9 +6,8 @@
     text-decoration: none;
     display: block;
     margin-right: 93px;
+    color:var(--main-text-colour);
 }
+.navigat__icon{
+color:var(--button-text-colour);}
 
-.navigat-logo{color:var(--button-text-colour);
-   }
-
-   

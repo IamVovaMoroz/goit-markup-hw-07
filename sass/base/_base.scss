@@ -2,7 +2,8 @@ html{box-sizing: border-box;}
 
 *, *::before, *::after{box-sizing: inherit;}
 
-.container {margin-left: auto;
+.container {
+margin-left: auto;
 margin-right: auto;
 width: 1200px;
 padding-left: 15px;
@@ -17,14 +18,14 @@ img{
     display: block; 
 }
 
-ul{margin:0; padding:0}
+ul{margin:0; padding:0; list-style: none;}
 
 body { background-color: var(--second-text-colour); color:var(--main-text-colour);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     
     }
-    .set{list-style: none;} 
+    .list{list-style: none;} 
 
     .pointing:hover, .pointing:focus{color: var(--button-text-colour);} 
 

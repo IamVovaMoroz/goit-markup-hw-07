@@ -70,6 +70,9 @@ letter-spacing: 0.03em;
     line-height: 1.36;
     text-decoration: none;
 }
+/* .logo-main{margin-right: 93px;} */
+
+/* .logo-main{display: block; } */
 
 .navigat-logo{color:var(--button-text-colour);
    } */
@@ -377,7 +380,7 @@ text-decoration: none;
     margin-right: 0;
   } */
 
-  /* .logo-main{margin-right: 93px;} */
+ 
   
 
   /* .li-studio, .li-portfolio, .li-email{margin-right: 50px;} */
@@ -390,7 +393,7 @@ text-decoration: none;
 
 /* .portfolio, .studio, .navigat-contact, .auth-email, .auth-tel{display: block; } */
  
-
+ /* .logo-main{margin-right: 93px;} */
 
 /* .logo-main{display: block; } */
 
