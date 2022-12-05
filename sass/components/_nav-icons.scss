@@ -1,8 +1,8 @@
-.auth__link, .auth-tel{
+.auth__link, .auth-phone__link{
     display: flex; 
     align-items: center;}
 
-.auth-tel:hover .icon-phone {fill:var(--button-text-colour);}
+.auth-phone__link:hover .icon-phone {fill:var(--button-text-colour);}
 .auth__link:hover .icon-email {fill:var(--button-text-colour);}
 
 .icon-email, .icon-phone{

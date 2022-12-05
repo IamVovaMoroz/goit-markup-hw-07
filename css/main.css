@@ -135,7 +135,7 @@ body {
   color: var(--main-text-colour);
 }
 
-.auth__link, .auth-tel {
+.auth__link, .auth-phone__link {
   display: block;
   color: var(--article-text-colour);
   font-weight: 500;
@@ -217,7 +217,7 @@ body {
   color: var(--button-text-colour);
 }
 
-.auth__link, .auth-tel {
+.auth__link, .auth-phone__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,7 +226,7 @@ body {
           align-items: center;
 }
 
-.auth-tel:hover .icon-phone {
+.auth-phone__link:hover .icon-phone {
   fill: var(--button-text-colour);
 }
 
@@ -249,10 +249,6 @@ body {
   fill: var(--button-text-colour);
 }
 
-.container-hero {
-  margin-right: auto;
-}
-
 .hero {
   text-align: center;
   padding-top: 200px;
@@ -269,7 +265,7 @@ body {
   background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-min.jpg);
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -281,7 +277,7 @@ body {
   margin-bottom: 30px;
 }
 
-.hero-button {
+.hero__button {
   display: block;
   font-weight: 700;
   font-size: 16px;
@@ -304,7 +300,7 @@ body {
   padding-bottom: 94px;
 }
 
-.ul-features {
+.features__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -314,11 +310,11 @@ body {
           justify-content: center;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 }
 
-.features-block {
+.features__block {
   width: 270px;
   height: 120px;
   background-color: var(--button-backgroud-colour);
@@ -328,7 +324,7 @@ body {
   text-align: center;
 }
 
-.features-title {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -347,11 +343,11 @@ body {
   color: var(--article-text-colour);
 }
 
-.features-item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-item:last-child {
+.features__item:last-child {
   margin-right: 0;
 }
 

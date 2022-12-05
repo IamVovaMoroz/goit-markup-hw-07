@@ -12,35 +12,38 @@
   <body>
     <header class="site-header">
       <div class="container main-menu">
-        
-      <nav>
-        <!-- Роздiл Навигацiя сайту-->
-        <ul class="navigat set">
-          <li class="li-logo-main">
-            <a href="#" class="logo-main" lang="en"
-              ><span class="navigat-logo">Web</span>Studio</a
+            <nav>
+        <!-- Роздiл Навигацiя сайту.-->
+        <ul class="navigat">
+          <li class="navigat__item">
+            <a href="#"class="navigat__link" lang="en"
+              ><span class="navigat__icon">Web</span>Studio</a
             >
           </li>
           
-          <li class="li-studio"><a href="./index.html" class="studio ">Студія</a></li>
-          <li class="li-portfolio">
-            <a href="./portfolio.html" class="portfolio pointing current">Портфоліо</a>
+          <li class="header__item"><a href="./index.html" class="header-studio__link  ">Студія</a></li>
+          <li class="header__item">
+            <a href="./portfolio.html" class="header-portfolio__link pointing current">Портфоліо</a>
           </li>
-          <li class="li-contact"><a href="#" class="navigat-contact pointing">Контакти</a></li>
+          <li class="header__item"><a href="#" class="header-contact__link pointing">Контакти</a></li>
         
         </ul>
       </nav>
     
-      <!-- Роздiл авторизацiя -->
-      <ul class="auth set">
-        <li class="li-email">
+      <!-- Роздiл авторизацiя. -->
+      <ul class="auth">
+        <li class="auth__item ">
+          
+          <!-- <svg class="input-icon" width="18" height="18">
+            <use href="./img/sprite-icon.svg#icon-person"></use>
+          </svg> -->
          
-          <a href="mailto:info@devstudio.com" class="auth-email pointing" lang="en"
+          <a href="mailto:info@devstudio.com" class="auth__link pointing" lang="en"
             > <svg class="icon-email" width="16" height="12"><use href="./img/sprite-icon.svg#icon-email"></use></svg><span>info@devstudio.com</span></a
           >
         </li>
-        <li class="li-phone ">
-          <a href="tel:+38961111111" class="auth-tel pointing"><svg class="icon-phone" width="10" height="16"><use href="./img/sprite-icon.svg#icon-phone"></use></svg><span>+38 096 111 11 11</span></a>
+        <li class="auth__item">
+          <a href="tel:+38961111111" class="auth-phone__link pointing"><svg class="icon-phone" width="10" height="16"><use href="./img/sprite-icon.svg#icon-phone"></use></svg><span>+38 096 111 11 11</span></a>
         </li>
       
       </ul>
