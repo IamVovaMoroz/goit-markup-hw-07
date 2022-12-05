@@ -1,10 +1,11 @@
-.filter-main{
+.filter{
     padding-bottom: 50px;
     padding-top: 94px; }
 
-.filter-page{justify-content: center;}
+.filter__list{justify-content: center; display: flex;}
 
-.filter-item{margin-right: 8px; display: inline-block; }
+.filter__item{margin-right: 8px; display: inline-block; }
 
 
 .filter-item:last-child{margin-right: 0;} 
+

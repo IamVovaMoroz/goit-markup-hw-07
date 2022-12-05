@@ -1,6 +1,6 @@
 
 
-.filter-button{
+.filter__button{
     background-color: var(--button-backgroud-colour);
     font-family: 'Roboto';
     font-style: normal;
@@ -17,6 +17,6 @@
     cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-button:focus, .filter-button:hover{
+.filter__button:focus, .filter__button:hover{
     background-color: var(--button-text-colour);
     color: var(--second-text-colour);}

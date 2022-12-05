@@ -977,7 +977,7 @@ body {
   line-height: 1.875;
 }
 
-.filter-button {
+.filter__button {
   background-color: var(--button-backgroud-colour);
   font-family: "Roboto";
   font-style: normal;
@@ -996,23 +996,26 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-button:focus, .filter-button:hover {
+.filter__button:focus, .filter__button:hover {
   background-color: var(--button-text-colour);
   color: var(--second-text-colour);
 }
 
-.filter-main {
+.filter {
   padding-bottom: 50px;
   padding-top: 94px;
 }
 
-.filter-page {
+.filter__list {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.filter-item {
+.filter__item {
   margin-right: 8px;
   display: inline-block;
 }
@@ -1030,11 +1033,7 @@ body {
   padding-bottom: 94px;
 }
 
-.samples-title, .samples-text {
-  margin: 0;
-}
-
-.block-sample {
+.samples__item {
   display: inline-block;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -1046,45 +1045,47 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.block-sample:nth-child(3n) {
+.samples__item:nth-child(3n) {
   margin-right: 0;
 }
 
-.block-sample:nth-child(n+7) {
+.samples__item:nth-child(n+7) {
   margin-bottom: 0;
 }
 
-.samples-title {
+.samples__title {
   color: var(--main-text-colour);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin: 0;
 }
 
-.samples-text {
+.samples__text {
   color: var(--article-text-colour);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  margin: 0;
 }
 
-.about-blocks {
+.samples__blocks {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
   width: 370px;
 }
 
-.about-blocks {
+.samples__blocks {
   border: 1px solid var(--filter-border-colour);
 }
 
-.block-sample:hover {
+.samples__item:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.block-sample {
+.samples__item {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 28px;

@@ -4,10 +4,8 @@
     padding-bottom: 94px;}
    
 
-.samples-title, .samples-text{
-    margin: 0;}
 
-.block-sample{
+.samples__item{
     display: inline-block;
     margin-right: 30px; 
     margin-bottom: 30px;
@@ -16,35 +14,36 @@
     transition-timing-function: 
     cubic-bezier(0.4, 0, 0.2, 1);}
 
+   
+.samples__item:nth-child(3n){margin-right: 0;}
 
+.samples__item:nth-child(n + 7) {margin-bottom: 0;}
 
-.block-sample:nth-child(3n){margin-right: 0;}
-
-.block-sample:nth-child(n + 7) {margin-bottom: 0;}
-
-.samples-title{
+.samples__title{
     color: var(--main-text-colour);
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;   
+    line-height: 2; 
+    margin: 0;  
    }
 
-   .samples-text{
+   .samples__text{
      color: var(--article-text-colour);
      font-weight: 400;
      font-size: 16px;
      line-height: 1.88;  
+     margin: 0; 
    }
 
-   .about-blocks{padding-top: 20px; padding-bottom: 20px; padding-left: 24px; width: 370px;}
-   .about-blocks{border: 1px solid var(--filter-border-colour);}
+   .samples__blocks{padding-top: 20px; padding-bottom: 20px; padding-left: 24px; width: 370px;}
+   .samples__blocks{border: 1px solid var(--filter-border-colour);}
 
 
 //    Ховер на портфолио
 
-.block-sample:hover{
+.samples__item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
-.block-sample{box-sizing: border-box; margin-right: 28px; }
+.samples__item{box-sizing: border-box; margin-right: 28px; }
 
 .rekurs{ 
     position: relative; 
