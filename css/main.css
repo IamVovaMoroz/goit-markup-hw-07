@@ -101,6 +101,10 @@ body {
   border-bottom: 1px solid #ECECEC;
 }
 
+.auth__item {
+  margin-right: 50px;
+}
+
 .main-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,7 +135,7 @@ body {
   color: var(--main-text-colour);
 }
 
-.auth-email, .auth-tel {
+.auth__link, .auth-tel {
   display: block;
   color: var(--article-text-colour);
   font-weight: 500;
@@ -173,7 +177,7 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.auth__item, .header__item {
+.header__item {
   margin-right: 50px;
 }
 
@@ -213,7 +217,7 @@ body {
   color: var(--button-text-colour);
 }
 
-.auth-email, .auth-tel {
+.auth__link, .auth-tel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,7 +230,7 @@ body {
   fill: var(--button-text-colour);
 }
 
-.auth-email:hover .icon-email {
+.auth__link:hover .icon-email {
   fill: var(--button-text-colour);
 }
 
