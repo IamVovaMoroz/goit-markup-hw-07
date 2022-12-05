@@ -2,7 +2,7 @@
     display: flex;
      justify-content: center;} 
        
-    .social-item{ 
+    .social-icons__item{ 
         margin-right: 10px; 
         margin-top: 16px; }
     .social-link{
@@ -20,12 +20,12 @@
         }
 
 
-    .social-item:last-child{margin-right:0; }
+    .social-icons__item:last-child{margin-right:0; }
 
     .social-link:hover{background-color:var(--button-text-colour) ; fill: var(--second-text-colour);}
 
 
-    .social-item{ margin-right: 10px; margin-top: 16px; }
+    .social-icons__item{ margin-right: 10px; margin-top: 16px; }
 
 
  

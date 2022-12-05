@@ -132,6 +132,18 @@ letter-spacing: 0.02em;
 text-decoration: none;
 } */
 
+
+/* .auth-tel {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    display: block; } */
+    
+
+
 /* .hero-title{
     font-weight: 900;
     font-size: 44px;
@@ -544,6 +556,20 @@ margin-right: 10px;
 
 .auth-tel:hover .icon-phone {fill:var(--button-text-colour);}
 .li-phone:hover{fill:var(--button-text-colour);} */
+
+
+/* .auth-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    display: flex; 
+    align-items: center;
+    color:var(--article-text-colour);
+}
+    .auth-tel:hover .icon-phone {fill:var(--button-text-colour);} */
+
 
 
 /* Ховер на портфолио */
