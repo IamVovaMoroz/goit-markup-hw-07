@@ -1,49 +1,68 @@
-.title-clients{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    margin: 0;
-    padding-top: 94px;
-    padding-bottom: 50px;
-    }
-    
-    .clients__list{
-          display: flex;
-          list-style: none;
-          padding-bottom: 94px; 
-          justify-content: center;}
-    
+
+    .clients{
+
+            &__title{
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 1.16;
+                text-align: center;
+                margin: 0;
+                padding-top: 94px;
+                padding-bottom: 50px;
+                }
+                
+                &__list{
+                      display: flex;
+                      list-style: none;
+                      padding-bottom: 94px; 
+                      justify-content: center;}
+                      
+            }
+
+            .clients{
+
+                &__link{
+                        fill:var(--clients-border-colour);
+                         width: 106px;
+                          height: 60px; 
+                          display: flex; 
+                          align-items: center;
+                        justify-content: center;}
+                
+                       &__icon{
+                            transition-property: all; 
+                            transition-duration: 250ms;
+                            transition-timing-function: 
+                            cubic-bezier(0.4, 0, 0.2, 1);}
+                }
+        
+
 
     .clients__item{ 
-        padding: 16px 32px;
+         padding: 16px 32px;
          border: 1px solid var(--clients-border-colour);
          border-radius: 4px;
          transition-property: all; 
           transition-duration: 250ms;
           transition-timing-function: 
           cubic-bezier(0.4, 0, 0.2, 1);
-        }
+      
 
    
 
-    .clients__item:not(:last-child) {margin-right: 30px;}
-   
+    &:not(:last-child) {margin-right: 30px;}
+}
 
-    .clients__link{
-        fill:var(--clients-border-colour);
-         width: 106px;
-          height: 60px; 
-          display: flex; 
-          align-items: center;
-        justify-content: center;}
+       
+                
 
-    .clients__item  .clients__link:hover .clients__icon {fill: var(--button-text-colour);   }
-    .clients__item:hover, .clients__item:focus  {border: 1px solid var(--button-text-colour); }
+        .clients{
+ 
+            &__item  &__link:hover &__icon {fill: var(--button-text-colour);   }
+            }
 
-    .clients__icon{
-        transition-property: all; 
-        transition-duration: 250ms;
-        transition-timing-function: 
-        cubic-bezier(0.4, 0, 0.2, 1);}
-   
+     
+        .clients__item{
+            &:hover,
+            &:focus  {border: 1px solid var(--button-text-colour); }
+            }

@@ -1,5 +1,5 @@
 
-
+    
 .filter__button{
     background-color: var(--button-backgroud-colour);
     font-family: 'Roboto';
@@ -15,8 +15,9 @@
      border: none;
     transition-timing-function: 
     cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.filter__button:focus, .filter__button:hover{
+
+&:focus, &:hover{
     background-color: var(--button-text-colour);
     color: var(--second-text-colour);}
+}

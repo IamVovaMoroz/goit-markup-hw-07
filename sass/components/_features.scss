@@ -1,39 +1,57 @@
-.features{padding-top: 94px; padding-bottom: 94px;}
-.features__list {display: flex; list-style: none; justify-content: center;  }
 
 
+        .features{
+            padding-top: 94px; 
+            padding-bottom: 94px;
+            
+        &__list {
+            display: flex; 
+            list-style: none; 
+            justify-content: center;  }
+        
+        
+        
+        
+        &__block{
+                width: 270px;
+                height: 120px;
+               background-color: var(--button-backgroud-colour) ;
+                margin-bottom: 30px ; 
+                border-radius: 4px;
+                padding-top: 25px;
+                text-align: center; }
+        }
+        
 
-.features__item{width: 270px;}
+        .features{
 
-.features__block{
-        width: 270px;
-        height: 120px;
-       background-color: var(--button-backgroud-colour) ;
-        margin-bottom: 30px ; 
-        border-radius: 4px;
-        padding-top: 25px;
-        text-align: center; }
+        &__title{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            margin-top: 0; 
+            margin-bottom: 0; 
+            padding: 0;
+            color:var(--main-text-colour);
+        } 
+         
+        &__text{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 0;
+            margin-top: 10px; 
+            color:var(--article-text-colour);}
+            
+        }
 
 
-.features__title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    margin-top: 0; 
-    margin-bottom: 0; 
-    padding: 0;
-    color:var(--main-text-colour);
-} 
- 
-.features__text{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    margin-bottom: 0;
-    margin-top: 10px; 
-    color:var(--article-text-colour);
+        .features__item{
+            width: 270px;
+    
+        &:not(:last-child) {margin-right: 30px; }
+    
+        &:last-child{margin-right: 0; }
     }
 
-    .features__item:not(:last-child) {margin-right: 30px; }
 
-    .features__item:last-child{margin-right: 0; }

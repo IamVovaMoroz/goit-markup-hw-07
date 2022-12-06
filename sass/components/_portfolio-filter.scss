@@ -1,11 +1,18 @@
-.filter{
-    padding-bottom: 50px;
-    padding-top: 94px; }
+    .filter{
+        padding-bottom: 50px;
+        padding-top: 94px; 
+    
+    &__list{
+        display: flex;
+        justify-content: center; }
+    }
 
-.filter__list{justify-content: center; display: flex;}
 
-.filter__item{margin-right: 8px; display: inline-block; }
-
-
-.filter-item:last-child{margin-right: 0;} 
+    .filter__item{
+        display: inline-block;
+        margin-right: 8px; 
+    
+    
+    &:last-child{margin-right: 0;} 
+    }
 
